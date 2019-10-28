@@ -92,21 +92,50 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="AcceptanceTest\Enterdetails.cs" />
+    <Compile Include="AcceptanceTest\SpecFlowFeature1Steps.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="FeatureFiles\Testcases.feature.cs">
+    <Compile Include="FeatureFiles\SpecFlowFeature1.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Testcases.feature</DependentUpon>
+      <DependentUpon>SpecFlowFeature1.feature</DependentUpon>
+    </Compile>
+    <Compile Include="FeatureFiles\SpecFlowFeature2.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SpecFlowFeature2.feature</DependentUpon>
+    </Compile>
+    <Compile Include="AcceptanceTest\SpecFlowFeature2Steps.cs" />
+    <Compile Include="FeatureFiles\SpecFlowFeature3.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SpecFlowFeature3.feature</DependentUpon>
+    </Compile>
+    <Compile Include="AcceptanceTest\SpecFlowFeature3Steps.cs" />
+    <Compile Include="SpecFlowFeature4.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SpecFlowFeature4.feature</DependentUpon>
     </Compile>
     <Compile Include="Utils\Start.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-    <None Include="FeatureFiles\Testcases.feature">
+    <None Include="FeatureFiles\SpecFlowFeature1.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>Testcases.feature.cs</LastGenOutput>
+      <LastGenOutput>SpecFlowFeature1.feature.cs</LastGenOutput>
+    </None>
+    <None Include="FeatureFiles\SpecFlowFeature2.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>SpecFlowFeature2.feature.cs</LastGenOutput>
+    </None>
+    <None Include="FeatureFiles\SpecFlowFeature3.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>SpecFlowFeature3.feature.cs</LastGenOutput>
+    </None>
+    <None Include="SpecFlowFeature4.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>SpecFlowFeature4.feature.cs</LastGenOutput>
     </None>
   </ItemGroup>
   <ItemGroup>

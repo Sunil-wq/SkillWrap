@@ -25,7 +25,7 @@ namespace SpecflowTests.FeatureFiles
         
         private Microsoft.VisualStudio.TestTools.UnitTesting.TestContext _testContext;
         
-#line 1 "Testcases.feature"
+#line 1 "SpecFlowFeature1.feature"
 #line hidden
         
         public virtual Microsoft.VisualStudio.TestTools.UnitTesting.TestContext TestContext
@@ -45,7 +45,7 @@ namespace SpecflowTests.FeatureFiles
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner(null, 0);
             TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "SpecFlowFeature1", "\tIn order to update my profile \r\n\tAs a skill trader\r\n\tI want to add,edit and dele" +
-                    "te the language,skills,education,certification", ProgrammingLanguage.CSharp, ((string[])(null)));
+                    "te the language", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -145,72 +145,6 @@ this.ScenarioSetup(scenarioInfo);
  testRunner.When("I want to delete exsisting language", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 21
  testRunner.Then("that language should not be be displayed on my listings", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line hidden
-            this.ScenarioCleanup();
-        }
-        
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check if user could able to add a new skill")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "SpecFlowFeature1")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("automate")]
-        public virtual void CheckIfUserCouldAbleToAddANewSkill()
-        {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check if user could able to add a new skill", new string[] {
-                        "mytag",
-                        "automate"});
-#line 24
-this.ScenarioSetup(scenarioInfo);
-#line 25
- testRunner.Given("I clicked on the skill tab under Profile page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 26
- testRunner.When("I add a new skill", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 27
- testRunner.Then("that skill should be displayed on my listings", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line hidden
-            this.ScenarioCleanup();
-        }
-        
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check if user could able to add Education")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "SpecFlowFeature1")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("automate")]
-        public virtual void CheckIfUserCouldAbleToAddEducation()
-        {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check if user could able to add Education", new string[] {
-                        "mytag",
-                        "automate"});
-#line 30
-this.ScenarioSetup(scenarioInfo);
-#line 31
- testRunner.Given("I clicked on the education tab under Profile page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 32
- testRunner.When("I add education details", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 33
- testRunner.Then("that education should be displayed on my listings", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line hidden
-            this.ScenarioCleanup();
-        }
-        
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check if user could able to add Certifications")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "SpecFlowFeature1")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("automate")]
-        public virtual void CheckIfUserCouldAbleToAddCertifications()
-        {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check if user could able to add Certifications", new string[] {
-                        "mytag",
-                        "automate"});
-#line 36
-this.ScenarioSetup(scenarioInfo);
-#line 37
- testRunner.Given("I clicked on the certification tab under Profile page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 38
- testRunner.When("I enter certification details", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 39
- testRunner.Then("that certification details should be displayed on my listings", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
