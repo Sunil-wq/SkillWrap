@@ -92,51 +92,44 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="AcceptanceTest\SpecFlowFeature1Steps.cs" />
+    <Compile Include="AcceptanceTest\Languages.cs" />
+    <Compile Include="AcceptanceTest\Profile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="FeatureFiles\SpecFlowFeature1.feature.cs">
+    <Compile Include="FeatureFiles\Languages.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>SpecFlowFeature1.feature</DependentUpon>
+      <DependentUpon>Languages.feature</DependentUpon>
     </Compile>
-    <Compile Include="FeatureFiles\SpecFlowFeature2.feature.cs">
+    <Compile Include="FeatureFiles\Skills.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>SpecFlowFeature2.feature</DependentUpon>
+      <DependentUpon>Skills.feature</DependentUpon>
     </Compile>
-    <Compile Include="AcceptanceTest\SpecFlowFeature2Steps.cs" />
-    <Compile Include="FeatureFiles\SpecFlowFeature3.feature.cs">
+    <Compile Include="FeatureFiles\Certifications.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>SpecFlowFeature3.feature</DependentUpon>
+      <DependentUpon>Certifications.feature</DependentUpon>
     </Compile>
-    <Compile Include="AcceptanceTest\SpecFlowFeature3Steps.cs" />
-    <Compile Include="SpecFlowFeature4.feature.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>SpecFlowFeature4.feature</DependentUpon>
-    </Compile>
+    <Compile Include="AcceptanceTest\Skills.cs" />
+    <Compile Include="AcceptanceTest\Certifications.cs" />
     <Compile Include="Utils\Start.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-    <None Include="FeatureFiles\SpecFlowFeature1.feature">
+    <None Include="FeatureFiles\Languages.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>SpecFlowFeature1.feature.cs</LastGenOutput>
+      <LastGenOutput>Languages.feature.cs</LastGenOutput>
     </None>
-    <None Include="FeatureFiles\SpecFlowFeature2.feature">
+    <None Include="FeatureFiles\Skills.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>SpecFlowFeature2.feature.cs</LastGenOutput>
+      <LastGenOutput>Skills.feature.cs</LastGenOutput>
     </None>
-    <None Include="FeatureFiles\SpecFlowFeature3.feature">
+    <None Include="FeatureFiles\Certifications.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>SpecFlowFeature3.feature.cs</LastGenOutput>
+      <LastGenOutput>Certifications.feature.cs</LastGenOutput>
     </None>
-    <None Include="SpecFlowFeature4.feature">
-      <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>SpecFlowFeature4.feature.cs</LastGenOutput>
-    </None>
+    <None Include="Test Cases.docx" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SpecflowPages\SpecflowPages.csproj">

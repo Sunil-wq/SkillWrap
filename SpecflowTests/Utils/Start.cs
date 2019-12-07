@@ -18,7 +18,7 @@ namespace SpecflowTests.Utils
         {
             //Launch the browser
             Initialize();
-            Thread.Sleep(500);
+            TurnOnWait();
 
             //Call the Login Class            
             SpecflowPages.Utils.LoginPage.LoginStep();         
@@ -28,7 +28,7 @@ namespace SpecflowTests.Utils
         [AfterScenario]
         public void TearDown()
         {
-            Thread.Sleep(500);
+            TurnOnWait();
             // Screenshot
             string img = SaveScreenShotClass.SaveScreenshot(Driver.driver, "Report");
             test.Log(LogStatus.Info, "Snapshot below: " + test.AddScreenCapture(img));

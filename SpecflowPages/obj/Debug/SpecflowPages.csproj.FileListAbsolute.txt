@@ -62,3 +62,18 @@ C:\Users\Owner\source\repos\SpecflowTests-Base\SpecflowTests-Base\SpecflowTests\
 C:\Users\Owner\source\repos\SpecflowTests-Base\SpecflowTests-Base\SpecflowTests\SpecflowPages\obj\Debug\SpecflowPages.csproj.CopyComplete
 C:\Users\Owner\source\repos\SpecflowTests-Base\SpecflowTests-Base\SpecflowTests\SpecflowPages\obj\Debug\SpecflowPages.dll
 C:\Users\Owner\source\repos\SpecflowTests-Base\SpecflowTests-Base\SpecflowTests\SpecflowPages\obj\Debug\SpecflowPages.pdb
+C:\Users\Owner\source\repos\SpecflowTests-Base updated\SpecflowTests-Base\SpecflowTests-Base\SpecflowTests\SpecflowPages\bin\Debug\chromedriver.exe
+C:\Users\Owner\source\repos\SpecflowTests-Base updated\SpecflowTests-Base\SpecflowTests-Base\SpecflowTests\SpecflowPages\bin\Debug\SpecflowPages.dll
+C:\Users\Owner\source\repos\SpecflowTests-Base updated\SpecflowTests-Base\SpecflowTests-Base\SpecflowTests\SpecflowPages\bin\Debug\SpecflowPages.pdb
+C:\Users\Owner\source\repos\SpecflowTests-Base updated\SpecflowTests-Base\SpecflowTests-Base\SpecflowTests\SpecflowPages\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Owner\source\repos\SpecflowTests-Base updated\SpecflowTests-Base\SpecflowTests-Base\SpecflowTests\SpecflowPages\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Owner\source\repos\SpecflowTests-Base updated\SpecflowTests-Base\SpecflowTests-Base\SpecflowTests\SpecflowPages\bin\Debug\RelevantCodes.ExtentReports.dll
+C:\Users\Owner\source\repos\SpecflowTests-Base updated\SpecflowTests-Base\SpecflowTests-Base\SpecflowTests\SpecflowPages\bin\Debug\WebDriver.dll
+C:\Users\Owner\source\repos\SpecflowTests-Base updated\SpecflowTests-Base\SpecflowTests-Base\SpecflowTests\SpecflowPages\bin\Debug\WebDriver.Support.dll
+C:\Users\Owner\source\repos\SpecflowTests-Base updated\SpecflowTests-Base\SpecflowTests-Base\SpecflowTests\SpecflowPages\bin\Debug\WebDriver.xml
+C:\Users\Owner\source\repos\SpecflowTests-Base updated\SpecflowTests-Base\SpecflowTests-Base\SpecflowTests\SpecflowPages\bin\Debug\WebDriver.Support.xml
+C:\Users\Owner\source\repos\SpecflowTests-Base updated\SpecflowTests-Base\SpecflowTests-Base\SpecflowTests\SpecflowPages\obj\Debug\SpecflowPages.csprojAssemblyReference.cache
+C:\Users\Owner\source\repos\SpecflowTests-Base updated\SpecflowTests-Base\SpecflowTests-Base\SpecflowTests\SpecflowPages\obj\Debug\SpecflowPages.csproj.CoreCompileInputs.cache
+C:\Users\Owner\source\repos\SpecflowTests-Base updated\SpecflowTests-Base\SpecflowTests-Base\SpecflowTests\SpecflowPages\obj\Debug\SpecflowPages.csproj.CopyComplete
+C:\Users\Owner\source\repos\SpecflowTests-Base updated\SpecflowTests-Base\SpecflowTests-Base\SpecflowTests\SpecflowPages\obj\Debug\SpecflowPages.dll
+C:\Users\Owner\source\repos\SpecflowTests-Base updated\SpecflowTests-Base\SpecflowTests-Base\SpecflowTests\SpecflowPages\obj\Debug\SpecflowPages.pdb

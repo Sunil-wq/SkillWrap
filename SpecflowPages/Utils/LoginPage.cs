@@ -15,7 +15,8 @@ namespace SpecflowPages.Utils
         public static void LoginStep()
         {
             Driver.NavigateUrl();
-            Thread.Sleep(1000);
+            Driver.TurnOnWait();
+          
           
        
             
@@ -30,29 +31,11 @@ namespace SpecflowPages.Utils
             //Enter password
            // Driver.driver.FindElement(By.XPath("/html/body/div[2]/div/div/div/div[1]/form/div[2]/input")).SendKeys("Test@123");
             Driver.driver.FindElement(By.Name("password")).SendKeys("SydneyQa2018");
-            Thread.Sleep(1000);
+            Driver.TurnOnWait();
 
             //Click on Login Button
-             Driver.driver.FindElement(By.XPath("/html/body/div[2]/div/div/div[1]/div/div[4]/button")).Click();
+            Driver.driver.FindElement(By.XPath("/html/body/div[2]/div/div/div[1]/div/div[4]/button")).Click();
 
-            //string msg = "Add New Job";
-            //string Actualmsg = Driver.driver.FindElement(By.XPath("//*[@id='addnewjob']")).Text;
-
-            //if (msg == Actualmsg)
-            //{
-                //Console.WriteLine("Test Passed");
-                //CommonMethods.ExtentReports();
-                //Thread.Sleep(500);
-                //test = CommonMethods.extent.StartTest("Login with valid data");
-                //Thread.Sleep(1000);
-                //CommonMethods.test.Log(LogStatus.Pass, "Test Passed");
-                //SaveScreenShotClass.SaveScreenshot(Driver.driver, "HomePage");
-            //}
-            //else
-            //{
-                //Console.WriteLine("Test Failed");
-                //CommonMethods.test.Log(LogStatus.Fail, "Test Failed");
-            //}
         }
 
     }
